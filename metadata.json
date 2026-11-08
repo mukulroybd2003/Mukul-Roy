@@ -1,0 +1,8 @@
+{
+  "name": "Mps Chat",
+  "description": "Connect • Chat • Call • Share – Full Social Media \u0026 Messaging Platform with E2EE, Voice/Video Calls, and Groups",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

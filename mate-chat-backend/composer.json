@@ -1,0 +1,21 @@
+{
+  "name": "matechat/backend",
+  "description": "MATE CHAT - Full Social Media + Messenger Platform Backend (PHP 8.2+, MySQL 8+, WebSocket, E2EE, FCM)",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-pdo": "*",
+    "ext-pdo_mysql": "*",
+    "ext-openssl": "*",
+    "ext-json": "*",
+    "cboden/ratchet": "^0.4.4",
+    "firebase/php-jwt": "^6.10",
+    "ramsey/uuid": "^4.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "MateChat\\": "app/"
+    }
+  }
+}
